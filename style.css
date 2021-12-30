@@ -81,6 +81,8 @@ clip-path: circle(100px at center);}
 }
 .body_mc{
     background-image:url(img/fondmc.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
 }
 .body_lol{
    background-image:url(img/fondlol.jpg);
@@ -88,13 +90,19 @@ clip-path: circle(100px at center);}
    background-size: cover;
 }
 .body_fortnite{
-    background-image:url(img/fondfortnite.jpg)
+    background-image:url(img/fondfortnite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .body_valo{
     background-image: url(img/fondvalorant.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
 }
 .body_over{
     background-image:url(img/fondover.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
 }
 h3{
     font-size: 20px;
