@@ -84,6 +84,8 @@ clip-path: circle(100px at center);}
 }
 .body_lol{
    background-image:url(img/fondlol.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .body_fortnite{
     background-image:url(img/fondfortnite.jpg)
