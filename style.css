@@ -7,7 +7,7 @@ html{
 }
 .header{
     padding: 20px;
-    background-image:url(../img/image_de_fond3.png);
+    background-image:url(img/image_de_fond3.png);
 
 }
 .titre{
@@ -30,7 +30,7 @@ img:hover.logo{
     transform:scale(1.2);}
 .actu{
     padding:30px;
-    background-image:url(../img/image_de_fond.png);
+    background-image:url(img/image_de_fond.png);
     
 }
 .actu a{
@@ -57,7 +57,7 @@ clip-path: circle(100px at center);}
 .jeux{
     
     padding:20px ;
-    background-image:url(../img/image_de_fond2.png);
+    background-image:url(img/image_de_fond2.png);
 
 }
 .jeux a{
@@ -80,19 +80,19 @@ clip-path: circle(100px at center);}
     background: lightgoldenrodyellow;
 }
 .body_mc{
-    background-image:url(../img/fondmc.jpg);
+    background-image:url(img/fondmc.jpg);
 }
 .body_lol{
-   background-image:url(../img/fondlol.jpg);
+   background-image:url(img/fondlol.jpg);
 }
 .body_fortnite{
-    background-image:url(../img/fondfortnite.jpg)
+    background-image:url(img/fondfortnite.jpg)
 }
 .body_valo{
-    background-image:url(../img/fondvalorant.jpg);
+    background-image: url(img/fondvalorant.jpg);
 }
 .body_over{
-    background-image:url(../img/fondover.jpg);
+    background-image:url(img/fondover.jpg);
 }
 h3{
     font-size: 20px;
@@ -111,9 +111,6 @@ h3{
     -webkit-text-stroke: 1px white;
     font-weight: bold;
     font-family: arial black;
-
-    
-
 
 }
 .retouraccueil{
