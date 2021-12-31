@@ -1,7 +1,9 @@
-body {
-    margin: 0;
-    
-}
+  ::before, ::after{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;}
+ body{height: 100vh;
+}       
 html{
     scroll-behavior: smooth;
 }
@@ -41,6 +43,21 @@ img:hover.logo{
 .actu{
     text-align:center;
 }
+.bodyréseaux{
+ background: linear-gradient(90deg, rgba(242,239,21,1) 0%, rgba(230,60,98,1) 23%, rgba(58,92,236,1) 46%, rgba(238,9,110,1) 67%, rgba(255,0,0,1) 100%);   
+}
+.réseaux{
+    margin-left:0;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;}
+
+img:hover.réseaux{
+    transform:scale(1.2);
+}
+
 .actu a:hover{
     color: green;
 }
@@ -68,7 +85,7 @@ clip-path: circle(100px at center);}
     color: rgb(25, 0, 255);
 }
 .description_jeux{
-    color: black;
+    color: whitesmoke;
     font-family:Georgia;
     font-size: 25px; 
     font-weight: 900;
@@ -77,7 +94,10 @@ clip-path: circle(100px at center);}
     border: solid white;
     margin: 5px;
     font-style: italic;
-    background: lightgoldenrodyellow;
+    background: transparent;
+}
+.description_jeux:hover{
+    color: rgb(255, 0, 0);
 }
 .body_mc{
     background-image:url(img/fondmc.jpg);
@@ -103,7 +123,13 @@ clip-path: circle(100px at center);}
     background-image:url(img/fondover.jpg);
     background-repeat: no-repeat;
    background-size: cover;
+
 }
+.body-monster{
+    background-image:url(img/fondmonster.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;}
+
 h3{
     font-size: 20px;
     font-style: italic;
@@ -113,13 +139,22 @@ h3{
     color: white;
 }
 .titre_jeux{
-    color: white;
+    background: linear-gradient(90deg, rgba(194,62,62,1) 0%, rgba(251,0,0,1) 49%, rgba(92,78,230,1) 100%);
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight:bold ;
+    -webkit-text-stroke: 0.5px white;
 }
 .titre_fortnite{
     color: darkblue ;
     font-size:50px;
     -webkit-text-stroke: 1px white;
     font-weight: bold;
+    text-align: center;
     font-family: arial black;
 
 }
