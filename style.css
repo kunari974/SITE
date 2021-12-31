@@ -74,7 +74,7 @@ clip-path: circle(100px at center);}
 .jeux{
     
     padding:20px ;
-    background-image:url(img/image_de_fond2.png);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 
 }
 .jeux a{
