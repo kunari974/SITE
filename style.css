@@ -3,6 +3,7 @@
         margin: 0;
         padding: 0;}
  body{height: 100vh;
+    margin: 0;
 }       
 html{
     scroll-behavior: smooth;
@@ -31,6 +32,12 @@ html{
 img:hover.logo{
     transform:scale(1.2);
 }
+ .gif_jeux{
+   border: solid;
+   border-color:whitesmoke
+    
+}
+
 
 
 .bodyréseaux{
