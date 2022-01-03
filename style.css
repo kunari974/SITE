@@ -46,17 +46,46 @@ img:hover.logo{
 .bodyréseaux{
  background: linear-gradient(90deg, rgba(242,239,21,1) 0%, rgba(230,60,98,1) 23%, rgba(58,92,236,1) 46%, rgba(238,9,110,1) 67%, rgba(255,0,0,1) 100%);   
 }
-.réseaux{
+.réseaux.réseauxdisign{
     margin-left:0;
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         -ms-transition: all 0.2s;
         -o-transition: all 0.2s;
         transition: all 0.2s;}
-
-img:hover.réseaux{
+img:hover.réseaux
+{
     transform:scale(1.2);
 }
+
+h1.réseaux_disigner{
+    float: right;
+   color: blue;
+
+} 
+article.designer{
+     margin-right: 100px;
+     margin-top:-15px;
+}
+img.réseauxdisign{
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.réseauxdisign{
+    margin-left:0;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;}
+img:hover.réseauxdisign
+{
+    transform:scale(1.2);
+}
+
+
+
+
 
 .actu a:hover{
     color: green;
