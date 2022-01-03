@@ -46,8 +46,7 @@ img:hover.logo{
 .bodyréseaux{
  background: linear-gradient(90deg, rgba(242,239,21,1) 0%, rgba(230,60,98,1) 23%, rgba(58,92,236,1) 46%, rgba(238,9,110,1) 67%, rgba(255,0,0,1) 100%);   
 }
-.réseaux.réseauxdisign{
-    margin-left:0;
+.réseaux{
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         -ms-transition: all 0.2s;
