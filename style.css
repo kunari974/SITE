@@ -29,20 +29,10 @@ html{
         transition: all 0.2s;
 }
 img:hover.logo{
-    transform:scale(1.2);}
-.actu{
-    padding:30px;
-    background-image:url(img/image_de_fond.png);
-    
+    transform:scale(1.2);
 }
-.actu a{
-    color: red;
-    font-size: 50px;
-    text-align:center;
-}
-.actu{
-    text-align:center;
-}
+
+
 .bodyréseaux{
  background: linear-gradient(90deg, rgba(242,239,21,1) 0%, rgba(230,60,98,1) 23%, rgba(58,92,236,1) 46%, rgba(238,9,110,1) 67%, rgba(255,0,0,1) 100%);   
 }
@@ -51,7 +41,8 @@ img:hover.logo{
         -moz-transition: all 0.2s;
         -ms-transition: all 0.2s;
         -o-transition: all 0.2s;
-        transition: all 0.2s;}
+        transition: all 0.2s;
+    }
 img:hover.réseaux
 {
     transform:scale(1.2);
@@ -80,14 +71,6 @@ img.réseauxdisign{
 img:hover.réseauxdisign
 {
     transform:scale(1.2);
-}
-
-
-
-
-
-.actu a:hover{
-    color: green;
 }
 .liste-tire{
     color: red;
